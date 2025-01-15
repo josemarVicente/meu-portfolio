@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="web design, html, css, js" />
+    <title>Josemar Vicente | Portfólio</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <header class="header container">
+          <nav>
+            <ul class="header__menu">
+              <li>
+                <a class="header__link" href="#about">Sobre Mim</a>
+              </li>
+              <li>
+                <a class="header__link" href="#featured">Projectos</a>
+              </li>
+              <li>
+                <a class="header__link" href="#contact">Contacto</a>
+              </li>
+              <li class="header__line"></li>
+              <li>
+                <button
+                  aria-label="theme-toggle btn"
+                  id="theme-toggle"
+                  class="header__sun"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+                    />
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <a class="header__resume btn" href="https://josemarvicente.github.io/" target="_blank">Currículo</a>
+              </li>
+            </ul>
+            <button aria-label="mobile nav button" class="header__bars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </nav>
+        </header>
+
+        <div class="mobile-nav">
+          <nav>
+            <ul class="mobile-nav__menu">
+              <li>
+                <a class="mobile-nav__link" href="#about">Sobre Mim</a>
+              </li>
+              <li>
+                <a class="mobile-nav__link" href="#featured">Projectos</a>
+              </li>
+              <li>
+                <a class="mobile-nav__link" href="#contact">Contacto</a>
+              </li>
+              <li class="mobile-nav__link-line"></li>
+              <li>
+                <button
+                  aria-label="theme-toggle btn"
+                  id="theme-toggle"
+                  class="mobile-nav__sun"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+                    />
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <a class="mobile-nav__btn btn" href="https://josemarvicente.github.io/" target="_blank">Currículo</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <main>
+          <section class="hero container">
+
+            <h2 class="hero__subtitle">Josemar Vicente</h2>
+            <h1 class="hero__title">
+              DESENVOLVEDOR <br />
+              FULLSTACK .
+            </h1>
+            <p class="hero__description">
+              Um desenvolvedor <strong>Fullstack </strong>apaixonado por construir programas, entusiasta por <strong>UI/UX</strong>
+              e especializado em construir websites e aplicações.
+            </p>
+          </section>
+
+          <section id="about" class="about container section">
+            <div class="about__content">
+              <h2 class="about__title">Sobre Mim</h2>
+              <p class="about__description">
+                Olá sou Josemar, um desenvolvedor
+                <strong> Front-end / Fullstack.</strong>
+              </p>
+              <p class="about__description">
+                Pessoas que me conhecem dizem que sou obcecado, eu gosto de aprender e uso esse conhecimento para construir coisas que vivem na web.
+              </p>
+
+              <hr class="about__hr" />
+              <h3 class="about__subtitle">Tecnologias</h3>
+              <div class="about__ul-container">
+                <ul class="about__ul">
+                  <li class="about__list">JavaScript (ES6+)</li>
+                  <li class="about__list">NodeJS</li>
+                  <li class="about__list">HTML</li>
+                  <li class="about__list">CSS</li>
+                  <li class="about__list">MySQL</li>
+                </ul>
+                <ul class="about__ul">
+                  <li class="about__list">ReactJS</li>
+                  <li class="about__list">NextJS</li>
+                  <li class="about__list">TailwindCSS</li>
+                  <li class="about__list">Git e GitHub</li>
+                  <li class="about__list">MongoDB</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="work container section">
+            <h2 class="work__title">Projectos</h2>
+            <p class="work__description">
+              Alguns projectos que trabalhei recentemente.
+            </p>
+            <div class="work__container">
+
+              <h3 class="work__project-title">Hilink - Angola Camp Area</h3>
+              <div class="work__img-wrapper work__image1">
+                <img
+                  class="lazy loading"
+                  src="https://via.placeholder.com/900"
+                  data-src="/hilink.png"
+                  alt="Hilink - Angola Camp Area"
+                />
+              </div>
+              <div class="work__project work__content1">
+                <h3 class="work__project-subtitle">Hilink - Angola Camp Area</h3>
+                <p class="work__project-description1">
+                  Landing page de uma aplicação que serve de guia para campistas.
+                </p>
+                <p class="work__project-description2">
+                  A ideia foi criar uma landing page capaz de atrair clientes e converter as visitas ao website em downloads do aplicativo. Desenvolvido com NextJS e TailwindCSS.
+                </p>
+                <a class="btn work__project-btn" href="#">Ver</a>
+              </div>
+
+              <h3 class="work__project-title">Draze Force</h3>
+              <div class="work__img-wrapper work__image2">
+                <img
+                  class="lazy loading"
+                  src="https://via.placeholder.com/900"
+                  data-src="/quoty.png"
+                  alt="Quoty - Quote Generator"
+                />
+              </div>
+              <div class="work__project work__content2">
+                <h3 class="work__project-subtitle">Quoty - Quote Generator</h3>
+                <p class="work__project-description1">
+                  Um gerador de frases aleatórias.
+                </p>
+                <p class="work__project-description2">
+                  Um gerador de frases e citações que puxa de uma API com uma coleção infinita.
+                </p>
+                <a class="btn work__project-btn" href="#">Ver</a>
+              </div>
+
+              <h3 class="work__project-title">Portfolio Pessoal</h3>
+              <div class="work__img-wrapper work__image3">
+                <img
+                  class="lazy loading"
+                  src="https://via.placeholder.com/900"
+                  data-src="/portfolio.png"
+                  alt="Portfolio"
+                />
+              </div>
+              <div class="work__project work__content3">
+                <h3 class="work__project-subtitle">Portfolio</h3>
+                <p class="work__project-description1">
+                  Meu portfolio pessoal, onde apresento um resumo de quem sou e as minhas competências.
+                </p>
+                <p class="work__project-description2">
+                  Desenvolvido com HTML, CSS e Javascript.
+                </p>
+              </div>
+            </div>
+          </section>
+
+
+          <section id="contact" class="contact container section">
+            <h2 class="contact__title">Contacto</h2>
+            <p class="contact__description">
+            Se estiveres a iniciar um projeto, tiveres dúvidas comerciais ou apenas quer dar um olá, a minha caixa de entrada está sempre aberta. Fique à vontade para entrar em contato, e eu responderei o mais rápido possível.
+            </p>
+            <a
+              class="contact__btn btn"
+              href="mailto:josemaralessio@gmail.com"
+              target="_blank"
+              >Entre em Contacto</a
+            >
+          </section>
+        </main>
+        <footer class="footer container section">
+          <h3 class="footer__title">~ Josemar Vicente ~</h3>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
